@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(37, 36, 48);
+    color: white;
+    font-size: 22px;
+}
+
+p {
+    color:antiquewhite;
+}
+
+p2 {
+    color:rgb(185, 22, 50);
+    
+}
+
+h1 {
+    font-size: 70px;
+    color: plum;
+}
+
+.top-section {
+    background: rgb(30, 53, 37);
+    width: 500px;
+}
+
+.bottom-section {
+    background: rgb(51, 29, 33);
+    width: 500px;
+
+}
+
+span {
+    color: rgb(223, 109, 128);
+    font-size: 30px;
+}
+/* css box model */
+
+/* Margin: creates empty space without background colour
+    Border: duh
+    Padding: the space between border and text, includes bg-color
+*/
+.box {
+    background: rgb(12, 64, 71);
+    background-image: url(../../img/catbg.jpg);
+    background-size: contain;
+
+    width: 300px;
+    margin: 100px;
+    border-width: 5px;
+    border-color: rgb(49, 28, 22);
+    border-style: double;
+    padding-left: 15px;
+    padding-right: 5px;
+    /* if you do just padding alone it takes 4 arguments;
+     | padding: top right bottom left | 
+    */
+    
+}
+
+.catbox {
+    background-image: url(../../img/cats.webp);
+    background-size: fill;
+    background-repeat: no-repeat;
+    padding: 200px 100px;
+    margin: 100px; 
+}
